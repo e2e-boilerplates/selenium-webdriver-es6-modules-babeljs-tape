@@ -1,0 +1,36 @@
+{
+  "name": "selenium-webdriver-commonjs-tape",
+  "version": "1.0.0",
+  "description": "selenium-webdriver end-to-end test automation boilerplate, using CommonJS and Tape.",
+  "scripts": {
+    "lint": "npx eslint --ext .js ./ --fix",
+    "test": "node ./spec/*.spec.js"
+  },
+  "keywords": [
+    "selenium-webdriver",
+    "comonjs",
+    "jasmine",
+    "boilerplate",
+    "example"
+  ],
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "license": "MIT",
+  "devDependencies": {
+    "chromedriver": "79.0.2",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-config-prettier": "6.10.0",
+    "eslint-plugin-import": "2.20.0",
+    "eslint-plugin-prettier": "3.1.2",
+    "husky": "4.2.1",
+    "prettier": "1.19.1",
+    "pretty-quick": "2.0.1",
+    "selenium-webdriver": "4.0.0-alpha.5",
+    "tape": "^4.13.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}
