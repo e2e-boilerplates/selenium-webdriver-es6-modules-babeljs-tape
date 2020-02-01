@@ -1,6 +1,6 @@
-const { Builder, By } = require("selenium-webdriver");
-const chrome = require("selenium-webdriver/chrome");
-const test = require("tape");
+import { Builder, By } from "selenium-webdriver";
+import chrome from "selenium-webdriver/chrome";
+import test from "tape";
 
 require("chromedriver");
 

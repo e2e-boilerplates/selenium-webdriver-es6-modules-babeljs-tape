@@ -1,21 +1,28 @@
 {
-  "name": "selenium-webdriver-commonjs-tape",
+  "name": "selenium-webdriver-es6-modules-babeljs-tape",
   "version": "1.0.0",
-  "description": "selenium-webdriver end-to-end test automation boilerplate, using CommonJS and Tape.",
+  "description": "selenium-webdriver end-to-end test automation boilerplate, using ES6-modules, BabelJS and Tape.",
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
-    "test": "node ./spec/*.spec.js"
+    "test": "npx babel-tape-runner ./spec/*.js"
   },
   "keywords": [
     "selenium-webdriver",
-    "comonjs",
-    "jasmine",
+    "es6 modules",
+    "tape",
     "boilerplate",
-    "example"
+    "example",
+    "babeljs"
   ],
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "7.8.4",
+    "@babel/plugin-transform-runtime": "7.8.3",
+    "@babel/preset-env": "7.8.4",
+    "@babel/register": "7.8.3",
+    "@babel/runtime": "7.8.4",
+    "babel-tape-runner": "^3.0.0",
     "chromedriver": "79.0.2",
     "eslint": "6.8.0",
     "eslint-config-airbnb-base": "14.0.0",
