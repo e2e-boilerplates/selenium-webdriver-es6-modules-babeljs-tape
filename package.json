@@ -27,7 +27,7 @@
     "prettier": "1.19.1",
     "pretty-quick": "2.0.1",
     "selenium-webdriver": "4.0.0-alpha.5",
-    "tape": "^4.13.0"
+    "tape": "4.13.0"
   },
   "husky": {
     "hooks": {
@@ -35,6 +35,6 @@
     }
   },
   "dependencies": {
-    "esm": "^3.2.25"
+    "esm": "3.2.25"
   }
 }
