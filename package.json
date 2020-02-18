@@ -1,14 +1,16 @@
 {
   "name": "selenium-webdriver-es6-modules-babeljs-tape",
   "version": "1.0.0",
-  "description": "selenium-webdriver end-to-end test automation boilerplate, using ES6-modules, BabelJS and Tape.",
+  "description": "selenium-webdriver end-to-end test automation boilerplate, using ES6 modules, BabelJS and Tape.",
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
     "test": "npx tape -r 'esm' ./spec/*.js"
   },
   "keywords": [
     "selenium-webdriver",
-    "es6 modules",
+    "es6",
+    "e2e",
+    "e2e test",
     "tape",
     "boilerplate",
     "example",
