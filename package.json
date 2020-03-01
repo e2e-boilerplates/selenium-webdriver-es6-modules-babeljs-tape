@@ -1,29 +1,16 @@
 {
-  "name": "selenium-webdriver-es6-modules-babeljs-tape",
-  "version": "1.0.0",
-  "description": "selenium-webdriver end-to-end test automation boilerplate, using ES6 modules, BabelJS and Tape.",
-  "scripts": {
-    "lint": "npx eslint --ext .js ./ --fix",
-    "test": "npx tape -r 'esm' ./spec/*.js"
-  },
-  "keywords": [
-    "selenium-webdriver",
-    "es6",
-    "e2e",
-    "e2e test",
-    "tape",
-    "boilerplate",
-    "example",
-    "babeljs"
-  ],
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
-  "license": "MIT",
+  "dependencies": {
+    "esm": "3.2.25"
+  },
+  "description": "selenium-webdriver end-to-end test automation boilerplate, using ES6 modules, BabelJS and Tape.",
   "devDependencies": {
     "chromedriver": "79.0.3",
     "eslint": "6.8.0",
     "eslint-config-airbnb-base": "14.0.0",
     "eslint-config-prettier": "6.10.0",
     "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-json": "^2.1.0",
     "eslint-plugin-prettier": "3.1.2",
     "husky": "4.2.3",
     "prettier": "1.19.1",
@@ -36,7 +23,28 @@
       "pre-commit": "pretty-quick --staged"
     }
   },
-  "dependencies": {
-    "esm": "3.2.25"
-  }
+  "keywords": [
+    "babeljs",
+    "boilerplate",
+    "e2e",
+    "e2e tests",
+    "es6",
+    "example",
+    "integration test",
+    "selenium",
+    "selenium-webdriver",
+    "tape",
+    "webdriver"
+  ],
+  "license": "MIT",
+  "name": "selenium-webdriver-es6-modules-babeljs-tape",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e2e-boilerplates/selenium-webdriver-es6-modules-babeljs-tape.git"
+  },
+  "scripts": {
+    "lint": "npx eslint --ext .js ./ --fix",
+    "test": "npx tape -r 'esm' ./spec/*.js"
+  },
+  "version": "1.0.0"
 }
