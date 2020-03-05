@@ -15,7 +15,7 @@
     "husky": "4.2.3",
     "prettier": "1.19.1",
     "pretty-quick": "2.0.1",
-    "selenium-webdriver": "4.0.0-alpha.6",
+    "selenium-webdriver": "4.0.0-alpha.7",
     "tape": "4.13.2"
   },
   "husky": {
