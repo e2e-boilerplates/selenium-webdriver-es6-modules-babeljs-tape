@@ -1,5 +1,5 @@
 {
-  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "author": "",
   "dependencies": {
     "esm": "3.2.25"
   },
@@ -25,12 +25,8 @@
   },
   "keywords": [
     "babeljs",
-    "boilerplate",
-    "e2e",
-    "e2e tests",
+    "es Modules",
     "es6",
-    "example",
-    "integration test",
     "selenium",
     "selenium-webdriver",
     "tape",
