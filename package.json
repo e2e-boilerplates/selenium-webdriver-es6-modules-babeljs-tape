@@ -50,7 +50,7 @@
   },
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
-    "test": "npx tape -r 'esm' ./spec/*.js"
+    "test": "npx tape --require @babel/register ./spec/*.js"
   },
   "version": "1.0.0"
 }
