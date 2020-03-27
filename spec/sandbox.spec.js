@@ -9,7 +9,7 @@ const chromeOptions = process.env.GITHUB_ACTIONS ? options.headless() : options;
 
 let browser;
 
-test("setup", async t => {
+test("setup", async (t) => {
   setTimeout(() => {
     browser = new Builder()
       .forBrowser("chrome")
@@ -20,7 +20,7 @@ test("setup", async t => {
   }, 2000);
 });
 
-test("Should be on Sandbox", async t => {
+test("Should be on Sandbox", async (t) => {
   const title = await browser.getTitle();
   const header = await browser.findElement(By.css("h1")).getText();
 
@@ -29,7 +29,7 @@ test("Should be on Sandbox", async t => {
   t.end();
 });
 
-test("teardown", async t => {
+test("teardown", async (t) => {
   browser.quit();
   t.end();
 });
