@@ -31,7 +31,7 @@
   "homepage": "https://github.com/e2e-boilerplate/selenium-webdriver-es-modules-babel-tape#readme",
   "husky": {
     "hooks": {
-      "pre-commit": "pretty-quick --staged"
+      "pre-commit": "lint-staged"
     }
   },
   "keywords": [
@@ -46,6 +46,11 @@
     "tape"
   ],
   "license": "MIT",
+  "lint-staged": {
+    "*.{js,json,md}": [
+      "prettier --write"
+    ]
+  },
   "name": "selenium-webdriver-es-modules-babel-tape",
   "repository": {
     "type": "git",
