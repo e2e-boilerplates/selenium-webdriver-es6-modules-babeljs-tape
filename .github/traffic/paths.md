@@ -1,11 +1,3 @@
-| referrer                                                                                           | count | uniques |
-| :------------------------------------------------------------------------------------------------- | :---- | :------ |
-| /e2e-boilerplate/selenium-webdriver-es-modules-babel-tape                                          | 4     | 1       |
-| /e2e-boilerplate/selenium-webdriver-es-modules-babel-tape/actions                                  | 1     | 1       |
-| /e2e-boilerplate/selenium-webdriver-es-modules-babel-tape/actions/runs/61122193                    | 1     | 1       |
-| /e2e-boilerplate/selenium-webdriver-es-modules-babel-tape/blob/master/.github/workflows/nodejs.yml | 1     | 1       |
-| /e2e-boilerplate/selenium-webdriver-es-modules-babel-tape/blob/master/package.json                 | 1     | 1       |
-| /e2e-boilerplate/selenium-webdriver-es-modules-babel-tape/runs/526365919                           | 1     | 1       |
-| /e2e-boilerplate/selenium-webdriver-es-modules-babel-tape/runs/526434051                           | 1     | 1       |
-| /e2e-boilerplate/selenium-webdriver-es-modules-babel-tape/tree/master/.github                      | 1     | 1       |
-| /e2e-boilerplate/selenium-webdriver-es-modules-babel-tape/tree/master/.github/workflows            | 1     | 1       |
+| referrer                                                  | count | uniques |
+| :-------------------------------------------------------- | :---- | :------ |
+| /e2e-boilerplate/selenium-webdriver-es-modules-babel-tape | 1     | 1       |
